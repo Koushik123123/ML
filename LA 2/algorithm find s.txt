@@ -1,0 +1,6 @@
+Initilize h to the most specific hypothesis in H (YES)
+For each positive training instance x
+  .For each attribute constraint i in h
+          If the value i in h is satisfied by x then do nothing
+          else replace i in h by the next more general constraint that is satisfied by x i.e '?'
+output hypothesis h
